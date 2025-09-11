@@ -5,38 +5,8 @@
     --radius: 14px;
     font-family: Roboto, sans-serif;
 }
-#title-id {
-    translate: 0px 20px;
-    text-align: center;
-    color: var(--accent);
-    background: var(--bg);
-}
 * {
     scroll-behavior: smooth;
-}
-a {
-    text-decoration: none;
-    color: var(--bg);
-    font-weight: 600;
-    font-size: large;
-    padding: 10px;
-    border-radius: var(--radius);
-}
-a:hover {
-    text-decoration: underline;
-}
-.nav-link.active {
-    color: var(--panel); 
-    background: var(--bg);
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background: var(--bg);
-    color: var(--accent);
-    z-index: 0;
-    max-width: 95vw;
 }
 header {
     position: fixed;
@@ -50,16 +20,49 @@ header {
     border: var(--accent) 2px solid;
     overflow-x: auto;
 }
-main {
-    margin: 0; padding: 0;
-    left: 0; right: 0;
-
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--accent);
+    z-index: 0;
+    max-width: 97vw;
+    scroll-behavior: smooth;
 }
 body img {
     background: var(--bg);
     width: 100px;
     height: 100px
 }
+
+main {
+    margin: 0; padding: 0;
+    left: 0; right: 0;
+
+}
+a {
+    text-decoration: none;
+    color: var(--bg);
+    font-weight: 600;
+    font-size: large;
+    padding: 10px;
+    border-radius: var(--radius);
+}
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: var(--accent);
+    font-size: small;
+}
+
+
+#titleId {
+    translate: 0px 20px;
+    text-align: center;
+    color: var(--accent);
+    background: var(--bg);
+}
+
 .category {
     display: flex;
     flex-direction: column;
@@ -90,12 +93,7 @@ body img {
     font-size: medium;
     color: var(--accent);
 }
-footer {
-    text-align: center;
-    margin-top: 3rem;
-    color: var(--accent);
-    font-size: small;
-}
+
 /* animaion */
 .menu-item:hover {
     transform: translateY(-2px);
@@ -103,6 +101,10 @@ footer {
     box-shadow: 4px 4px 10px var(--panel);
 
 }
-.inner-text {
-    color: var(--bg);
+a:hover {
+    text-decoration: underline;
+}
+.active {
+    color: var(--panel); 
+    background: var(--bg);
 }
