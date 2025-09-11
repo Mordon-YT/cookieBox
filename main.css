@@ -1,0 +1,108 @@
+:root {
+    --bg: rgb(9, 45, 9);
+    --panel: rgb(238, 238, 238);
+    --accent: rgb(6, 6, 6);
+    --radius: 14px;
+    font-family: Roboto, sans-serif;
+}
+#title-id {
+    translate: 0px 20px;
+    text-align: center;
+    color: var(--accent);
+    background: var(--bg);
+}
+* {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: var(--bg);
+    font-weight: 600;
+    font-size: large;
+    padding: 10px;
+    border-radius: var(--radius);
+}
+a:hover {
+    text-decoration: underline;
+}
+.nav-link.active {
+    color: var(--panel); 
+    background: var(--bg);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--accent);
+    z-index: 0;
+    max-width: 95vw;
+}
+header {
+    position: fixed;
+    width: 100%;    height: 5%;    line-height: 100%;
+    top: 0; left: 0; right: 0;      z-index: 10;
+
+    display: flex;
+    justify-content: space-around;     align-items: center;
+
+    background: var(--panel); color: var(--bg);
+    border: var(--accent) 2px solid;
+    overflow-x: auto;
+}
+main {
+    margin: 0; padding: 0;
+    left: 0; right: 0;
+
+}
+body img {
+    background: var(--bg);
+    width: 100px;
+    height: 100px
+}
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0;
+}
+.category h2 {
+    background: var(--panel);
+    text-align: center;
+    color: var(--bg);
+}
+.menu-item{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background: var(--panel);
+    border: var(--accent) 2px solid;
+    padding: 5px;
+    gap: 1rem;
+    align-items: center;
+}
+.menu-item img {
+    height: inherit; width: 120px;
+    border-radius: var(--radius);
+}
+.menu-item h3 span {
+    font-weight: 400;
+    font-size: medium;
+    color: var(--accent);
+}
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: var(--accent);
+    font-size: small;
+}
+/* animaion */
+.menu-item:hover {
+    transform: translateY(-2px);
+    transition: transform 0.5s ease;
+    box-shadow: 4px 4px 10px var(--panel);
+
+}
+.inner-text {
+    color: var(--bg);
+}
