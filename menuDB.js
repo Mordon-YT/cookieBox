@@ -17,7 +17,7 @@ menu = {
     price: 23,
     img: "./imgs/hooka/hooka.jpg"
     }, {
-    name: "Love S1",
+    name: "Love 66",
     price: 23,
     img: "./imgs/hooka/hooka.jpg"
     }, {
@@ -38,7 +38,7 @@ menu = {
         {
             name: "San Sebastian",
             price: 20,
-            img: "./imgs/dessert/sanSebastian.jpg"
+            img: "./imgs/dessert/san.jpg"
         }, {
             name: "Soufflé",
             price: 20,
@@ -90,10 +90,6 @@ menu = {
             price: 15,
             img: "./imgs/milkshake/blueberry.jpg"
         }, {
-            name: "Pampa",
-            price: 15,
-            img: "./imgs/milkshake/pampa.jpg"
-        }, {
             name: "Cerelac",
             price: 15,
             img: "./imgs/milkshake/cerelac.jpg"
@@ -117,9 +113,9 @@ menu = {
             price: 13,
             img: "./imgs/iceDrinks/iceSpanishLatte.jpg"
         }, {
-            name: "Ice Latte Vanilla",
+            name: "Ice Vanilla",
             price: 13,
-            img: "./imgs/iceDrinks/iceLatteVanilla.jpg"
+            img: "./imgs/iceDrinks/vanilla.jpg"
         }, {
             name: "Ice Latte Hazelnut",
             price: 13,
@@ -129,19 +125,11 @@ menu = {
             price: 13,
             img: "./imgs/iceDrinks/iceTeaPeach.jpg",
         }, {
-            name: "Ice Tea Blueberry",
-            price: 13,
-            img: "./imgs/iceDrinks/iceTeaLemon.jpg"
-        }, {
-            name: "Ice Tea Watermelon",
-            price: 13,
-            img: "./imgs/iceDrinks/iceTeaMango.jpg"
-        }, {
             name: "Ice Tea Strawberry",
             price: 13,
             img: "./imgs/iceDrinks/iceTeaStrawberry.jpg"
         }, {
-            name: "Ice Tea Mango",
+            name: "Ice Tea Blueberry",
             price: 13,
             img: "./imgs/iceDrinks/iceTeaBlueberry.jpg"
         }
@@ -179,37 +167,37 @@ menu = {
     ],
     mojito: [
         {
-            name: "Lemon & Mint",
+            name: "Apple and Kiwi (XL, Sprite, Soda)",
             price: 16,
             img: "./imgs/mojito/lemonMint.jpg"
         }, {
-            name: "Strawberry",
+            name: "Strawberry (XL, Sprite, Soda)",
             price: 16,
             img: "./imgs/mojito/strawberry.jpg"
         }, {
-            name: "Passtionfruit",
+            name: "Passtionfruit (XL, Sprite, Soda)",
             price: 16,
             img: "./imgs/mojito/passionfruit.jpg"
         }, {
-            name: "Mixed Berries",
+            name: "Mixed Berries (XL, Sprite, Soda)",
             price: 16,
             img: "./imgs/mojito/mixedBerries.jpg"
         }, {
-            name: "Candy",
+            name: "Candy (XL, Sprite, Soda)",
             price: 16,
             img: "./imgs/mojito/candy.jpg"
         }, {
-            name: "Watermelon",
+            name: "Watermelon (XL, Sprite, Soda)",
             price: 16,
             img: "./imgs/mojito/watermelon.jpg"
         }, {
-            name: "Mango",
+            name: "Mango (XL, Sprite, Soda)",
             price: 16,
             img: "./imgs/mojito/mango.jpg"
         }, {
-            name: "Piñacolada",
+            name: "Cookie Box Mojito (XL, Sprite, Soda)",
             price: 16,
-            img: "./imgs/mojito/pinacolada.jpg"
+            img: "./imgs/mojito/lemonMint.jpg"
         }
     ],
     hotDrinks: [
@@ -267,7 +255,7 @@ menu = {
         }, {
             name: "Strawberry",
             price: 15,
-            img: "./imgs/smoothies/mango.jpg"
+            img: "./imgs/smoothies/strawberry.jpg"
         }, {
             name: "Passionfruit",
             price: 15,
@@ -285,13 +273,13 @@ menu = {
             price: 15,
             img: "./imgs/smoothies/mixedBerries.jpg"
         }, {
-            name: "Pomegranate (seasonal)",
+            name: "Pomegranate (رمان موسمي)",
             price: 15,
             img: "./imgs/smoothies/pomegranate.jpg"
         }, {
             name: "Mix 2-3 Fruits",
             price: 15,
-            img: "./imgs/smoothies/mango.jpg"
+            img: "./imgs/smoothies/mix.jpg"
         }
     ],
 };
