@@ -187,10 +187,6 @@ menu = {
             price: 16,
             img: "./imgs/mojito/strawberry.jpg"
         }, {
-            name: "Strawberry",
-            price: 16,
-            img: "./imgs/mojito/mango.jpg"
-        }, {
             name: "Passtionfruit",
             price: 16,
             img: "./imgs/mojito/passionfruit.jpg"
@@ -271,7 +267,7 @@ menu = {
         }, {
             name: "Strawberry",
             price: 13,
-            img: "./imgs/smoothies/strawberry.jpg"
+            img: "./imgs/smoothies/mango.jpg"
         }, {
             name: "Passionfruit",
             price: 13,
@@ -295,7 +291,7 @@ menu = {
         }, {
             name: "Mix 2-3 Fruits",
             price: 13,
-            img: "./imgs/smoothies/mixFruits.jpg"
+            img: "./imgs/smoothies/mango.jpg"
         }
     ],
 };
