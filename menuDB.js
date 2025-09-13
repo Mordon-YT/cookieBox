@@ -3,35 +3,35 @@ menu = {
     {
     name: "ليمون ونعنع",
     price: 23,
-    img: "./imgs/hooka/lemon.jpg"
+    img: "./imgs/hooka/hooka.jpg"
     }, {
     name: "بطيخ ونعنع",
     price: 23,
-    img: "./imgs/hooka/watermelon.jpg"
+    img: "./imgs/hooka/hooka.jpg"
     }, {
     name: "تفاختين",
     price: 23,
-    img: "./imgs/hooka/apple.jpg"
+    img: "./imgs/hooka/hooka.jpg"
     }, {
     name: "بلوبري",
     price: 23,
-    img: "./imgs/hooka/blueberry.jpg"
+    img: "./imgs/hooka/hooka.jpg"
     }, {
     name: "Love S1",
     price: 23,
-    img: "./imgs/hooka/loveS1.jpg"
+    img: "./imgs/hooka/hooka.jpg"
     }, {
     name: "كيف",
     price: 23,
-    img: "./imgs/hooka/keef.jpg"
+    img: "./imgs/hooka/hooka.jpg"
     }, {
     name: "سهم وقرفة",
     price: 23,
-    img: "./imgs/hooka/arrow.jpg"
+    img: "./imgs/hooka/hooka.jpg"
     }, {
     name: "تفاحتين نخلة",
     price: 28,
-    img: "./imgs/hooka/palmApple.jpg"
+    img: "./imgs/hooka/hooka.jpg"
     }
     ],
     dessert: [
@@ -173,7 +173,7 @@ menu = {
             img: "./imgs/fuzzDrinks/xl.jpg"
         }, {
             name: "Water",
-            price: 15,
+            price: 3,
             img: "./imgs/fuzzDrinks/water.jpg"
         }
     ],
@@ -258,39 +258,39 @@ menu = {
     smoothies: [
         {
             name: "Mango",
-            price: 13,
+            price: 15,
             img: "./imgs/smoothies/mango.jpg"
         }, {
             name: "Pineapple",
-            price: 13,
+            price: 15,
             img: "./imgs/smoothies/pineapple.jpg"
         }, {
             name: "Strawberry",
-            price: 13,
+            price: 15,
             img: "./imgs/smoothies/mango.jpg"
         }, {
             name: "Passionfruit",
-            price: 13,
+            price: 15,
             img: "./imgs/smoothies/passionfruit.jpg"
         }, {
             name: "Lemon",
-            price: 13,
+            price: 15,
             img: "./imgs/smoothies/lemon.jpg"
         }, {
             name: "Lemon & Mint",
-            price: 13,
+            price: 15,
             img: "./imgs/smoothies/lemonMint.jpg"
         }, {
             name: "Mixed Berries",
-            price: 13,
+            price: 15,
             img: "./imgs/smoothies/mixedBerries.jpg"
         }, {
-            name: "Pomegranate",
-            price: 13,
+            name: "Pomegranate (seasonal)",
+            price: 15,
             img: "./imgs/smoothies/pomegranate.jpg"
         }, {
             name: "Mix 2-3 Fruits",
-            price: 13,
+            price: 15,
             img: "./imgs/smoothies/mango.jpg"
         }
     ],
