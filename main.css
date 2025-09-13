@@ -57,11 +57,33 @@ footer {
 
 
 #titleId {
+    padding-top: 15px;
     translate: 0px 20px;
     text-align: center;
     color: var(--accent);
     background: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
+#titleId img {
+    height: 100px;
+    width: auto;
+}
+#titleId figcaption {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    color: var(--panel);
+    font-family: pacifico, cursive;
+}
+#titleId figcaption img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
 
 .category {
     display: flex;
