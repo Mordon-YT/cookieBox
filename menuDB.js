@@ -218,9 +218,9 @@ menu = {
             price: 5,
             img: "./imgs/hotDrinks/tea.jpg"
         }, {
-            name: "Turkish Coffee",
+            name: "Arabic Coffee",
             price: 5,
-            img: "./imgs/hotDrinks/turkishCoffee.jpg"
+            img: "./imgs/hotDrinks/coffee.jpg"
         }, {
             name: "Nescafé",
             price: 7,
