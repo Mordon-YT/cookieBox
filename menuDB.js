@@ -161,7 +161,7 @@ menu = {
             img: "./imgs/fuzzDrinks/xl.jpg"
         }, {
             name: "Water",
-            price: 3,
+            price: "3/6",
             img: "./imgs/fuzzDrinks/water.jpg"
         }
     ],
@@ -206,6 +206,14 @@ menu = {
             price: 5,
             img: "./imgs/hotDrinks/tea.jpg"
         }, {
+            name: "Green Tea",
+            price: "5/8",
+            img: "./imgs/hotDrinks/teaGrean.jpg"
+        }, {
+            name: "Herbal Tea with lemon & Ginger",
+            price: "5/8",
+            img: "./imgs/hotDrinks/teaHerbal.jpg"
+        }, {
             name: "Arabic Coffee",
             price: 5,
             img: "./imgs/hotDrinks/coffee.jpg"
@@ -218,9 +226,17 @@ menu = {
             price: 10,
             img: "./imgs/hotDrinks/nescafeWithMilk.jpg"
         }, {
-            name: "Espresso",
-            price: "5/8",
-            img: "./imgs/hotDrinks/espresso.jpg"
+            name: "Espresso Single",
+            price: "5",
+            img: "./imgs/hotDrinks/espressoS.jpg"
+        },{
+            name: "Espresso Double",
+            price: "8",
+            img: "./imgs/hotDrinks/espressoD.jpg"
+        }, {
+            name: "Americano",
+            price: "10",
+            img: "./imgs/hotDrinks/amercano.jpg"
         }, {
             name: "Cappuccino",
             price: 7,
